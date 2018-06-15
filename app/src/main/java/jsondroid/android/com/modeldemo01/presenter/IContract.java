@@ -8,7 +8,9 @@ import jsondroid.android.com.modeldemo01.base.IBaseView;
  */
 
 public interface IContract {
-
+    public interface IModelPresenter{
+        public void onResphone(int resdata);
+    }
     public interface IMainIm {
 
         public void oncreat();
